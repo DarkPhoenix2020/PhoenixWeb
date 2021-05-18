@@ -1,0 +1,6 @@
+dnspython
+beautifulsoup4
+lxml
+html5lib
+progress
+wget
