@@ -17,7 +17,7 @@ def check_internet_connection():
         print("Estado Activo")
     except exceptions.ConnectionError:
         print("Host Inactivo")
-        
+
 def verwordpress():
 	url = input("Introduzca el Sitio Web : ")
 	cabecera = {'User-Agent':'Firefox'}
@@ -155,8 +155,7 @@ PayPal: https://www.paypal.com/paypalme/DarkPhoenix87EH
 
 """
 
-while True:
-    def main():
+def main():
         print('\033[0;33m' + banner + '\033[0;33m')
         menu = """
         
@@ -198,4 +197,4 @@ while True:
         else:
             print("Opcion Incorrecta ")
 
-    main()
+main()
